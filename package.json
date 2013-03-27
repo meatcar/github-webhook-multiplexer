@@ -1,0 +1,28 @@
+{
+  "name": "github-webhook-multiplexer",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "express": "3.1.0",
+    "jade": "*"
+  },
+  "readmeFilename": "README.md",
+  "gitHead": "378ae5ff39833d01fb955e1c09b2d5ba196c9ea0",
+  "description": "A daemon with a configurable interface, that listens for incoming github webhooks, and pulls updated code.",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/meatcar/github-webhook-multiplexer.git"
+  },
+  "keywords": [
+    "webhook",
+    "continuous",
+    "deployment"
+  ],
+  "author": "Denys Pavlov (meatcar)",
+  "license": "MIT"
+}
